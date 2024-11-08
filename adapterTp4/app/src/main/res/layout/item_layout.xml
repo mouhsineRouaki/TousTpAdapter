@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingStart="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/NomP"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="Pays" />
+
+        <TextView
+            android:id="@+id/NomCap"
+            android:layout_width="345dp"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="end"
+            android:text="capital" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Coutinent"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:text="coutinent" />
+
+
+</LinearLayout>
